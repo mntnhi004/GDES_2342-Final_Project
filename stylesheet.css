@@ -15,7 +15,7 @@ body {
     }
 }
 
-header{
+header {
     height: 65px;
     background-color: #96B3CD;
     color: white;
@@ -30,6 +30,7 @@ header{
         display: flex;
         justify-content: center;
         padding-top: 10px;
+
         nav.menu {
             a {
                 text-decoration: none;
@@ -104,14 +105,14 @@ section.topproject {
         h3 {
             color: #431112;
         }
-    }
 
-    button {
-        border-radius: 2px 15px;
-        height: 50px;
-        width: 140px;
-        color: #431112;
-        background-color: #E1C383;
+        a {
+            border-radius: 2px 15px;
+            height: 50px;
+            width: 140px;
+            color: #431112;
+            background-color: #E1C383;
+        }
     }
 }
 
@@ -128,9 +129,20 @@ section.Aboutme {
         bottom: 0;
         right: 130px;
     }
+
     .text {
         width: 55%;
         padding: 30px;
+
+        a {
+            border-radius: 10px;
+            border-color: #728071;
+            height: 40px;
+            width: 180px;
+            padding: 10px;
+            color: #728071;
+            background-color: #E1C383;
+        }
     }
 
     h2 {
@@ -139,15 +151,6 @@ section.Aboutme {
 
     p {
         padding: 20px;
-    }
-
-    button {
-        border-radius: 10px;
-        Border-color: #728071;
-        height: 40px;
-        width: 180px;
-        color: #728071;
-        background-color: #E1C383;
     }
 }
 
@@ -177,7 +180,8 @@ footer {
         }
     }
 }
-section.skills{
+
+section.skills {
 
 }
 
