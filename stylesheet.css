@@ -80,9 +80,23 @@ section.landing {
     }
 }
 
+section.banner {
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    overflow: clip;
+    /*animation: 3s linear 1s infinite running slide-in;*/
+
+    span {
+        white-space: nowrap;
+        background-color: green;
+    }
+}
+
 section.topproject {
     display: flex;
-    gap: 70px;
+    gap: 50px;
     justify-content: center;
     padding: 40px;
     flex-wrap: wrap;
