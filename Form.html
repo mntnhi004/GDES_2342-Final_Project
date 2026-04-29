@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            form {
+                display: flex;
+                border: 10px solid black;
+                gap: 1rem;
+                flex-direction: column;
+
+                div.choices {
+                    display: flex;
+                    label{
+                        gap: 1rem;
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+<p> My form type is in here</p>
+<form action="#" method="get">
+    <p>
+        <label for="firstname">
+            We'd like to know your first name
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+        </label>
+    </p>
+    <input type="text" name="lastname" placeholder="Last Name" required>
+    <input type="email" name="email" placeholder="enter your email" required>
+
+    <div class="choices">
+        <label for="email">
+            <input type="radio" id="email" name="contactMethod" value="sms"> SMS
+        </label>
+
+        <label for="phone">
+            <input type="radio" id="phone" name="contactMethod" value="email"> Email
+        </label>
+    </div>
+<div class="choices">
+    Symptom
+    <label>
+        <input type="checkbox" name="symptom" value="Groggy"> Groggy
+    </label>
+    <label>
+        <input type="checkbox" name="symptom" value="Pain"> Pain
+    </label>
+    <label>
+        <input type="checkbox" name="symptom" value="Headache"> Headache
+    </label>
+    <label>
+        <input type="checkbox" name="symptom" value="Cough"> Cough
+    </label>
+
+</div>
+    <input type="button" value="Submit">
+</form>
+</body>
+
+</html>

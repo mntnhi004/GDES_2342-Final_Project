@@ -1,0 +1,183 @@
+body {
+    font-family: Futura, Helvetica, sans-serif;
+    background-color: #8FA6B4;
+
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+header{
+    height: 65px;
+    background-color: #96B3CD;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding: 5px 20px 0 20px;
+    font-size: 30px;
+    justify-content: space-between;
+
+    section.menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        nav.menu {
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 40px;
+                align-items: center;
+            }
+        }
+    }
+}
+
+section.landing {
+    height: 500px;
+    background-image: url('Photos/flower-background.png');
+    display: flex;
+
+    .leftside {
+        width: 50%;
+        padding: 30px;
+
+        h1 {
+            font-size: 80px;
+            color: white;
+        }
+    }
+
+    .rightside {
+        width: 50%;
+        overflow: clip;
+        position: relative;
+
+        img {
+            position: absolute;
+            height: 170%;
+            bottom: -60px;
+            right: 0;
+        }
+    }
+
+    button {
+        border-radius: 10px;
+        font-size: 25px;
+        height: 60px;
+        width: 250px;
+        background-color: #728071;
+        color: white;
+    }
+}
+
+section.topproject {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: #C5D6E6;
+
+    h2 {
+        text-align: center;
+    }
+
+    div.card {
+        width: 400px;
+        background-color: #E1C383;
+        padding: 20px;
+        border-radius: 20px;
+
+        img {
+            width: 380px;
+        }
+
+        h3 {
+            color: #431112;
+        }
+    }
+
+    button {
+        border-radius: 2px 15px;
+        height: 50px;
+        width: 140px;
+        color: #431112;
+        background-color: #E1C383;
+    }
+}
+
+section.Aboutme {
+    Height: 400px;
+    display: flex;
+    background-image: url('Photos/bg 2.png');
+    overflow: clip;
+    position: relative;
+
+    img {
+        position: absolute;
+        height: 100%;
+        bottom: 0;
+        right: 130px;
+    }
+    .text {
+        width: 55%;
+        padding: 30px;
+    }
+
+    h2 {
+        padding-left: 20px;
+    }
+
+    p {
+        padding: 20px;
+    }
+
+    button {
+        border-radius: 10px;
+        Border-color: #728071;
+        height: 40px;
+        width: 180px;
+        color: #728071;
+        background-color: #E1C383;
+    }
+}
+
+footer {
+    display: flex;
+    background-color: #96B3CD;
+    gap: 100px;
+    padding: 30px;
+
+    section.right {
+
+    }
+
+    section.left {
+        form {
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+
+            div.choices {
+                display: flex;
+
+                label {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
+section.skills{
+
+}
+
